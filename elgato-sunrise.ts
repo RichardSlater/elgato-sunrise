@@ -19,9 +19,9 @@ colorTemperatureModel.fit(colorTemperatureData, [3, 20]);
 // regression models for understanding the intensity sunlight
 var intensityData = [
     [timeToDecimal(position.dawn), 3],
-    [timeToDecimal(position.sunrise), 15],
-    [timeToDecimal(position.solarNoon), 30],
-    [timeToDecimal(position.sunset), 10],
+    [timeToDecimal(position.sunrise), 8],
+    [timeToDecimal(position.solarNoon), 20],
+    [timeToDecimal(position.sunset), 8],
     [timeToDecimal(position.dusk), 3],
 ];
 var intensityModel = createModel();
